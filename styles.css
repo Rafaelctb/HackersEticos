@@ -1,0 +1,418 @@
+.gidugu-regular {
+    font-family: "Gidugu", sans-serif;
+    font-size: 20px;
+  }  
+  
+
+body {
+    height: 100%;
+    color: #ccc;
+    background-color: #000000;
+    font-family: "Gidugu", sans-serif;
+}
+
+header { 
+    background-color: #050505;
+    color: #e2dddd;
+    padding: 20px;
+    text-align: center;
+    padding: 35px;
+}
+
+
+img[alt="imagemHackersDoBem"] {
+    max-width: 100%;
+    width: 130px;
+    height: 120px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+#imagensHome{
+
+    justify-content: space-around;
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 20%;
+}
+.imgEcotech1{
+    border-radius: 20%;
+    width: 170px;
+    height: 170px;
+    margin-right: 10px;
+}
+
+.imgEcotech2{
+    border-radius: 20%;
+    width: 170px;
+    height: 170px;
+    margin-right: 10px;
+}
+
+.imgEcotech3{
+    border-radius: 20%;
+    width: 170px;
+    height: 170px;
+    margin-right: 10px;
+}
+
+#home{
+   ul li{
+    font-size: 28px;
+    line-height: 30px;
+    text-align: left;
+    margin: 10px;
+    }
+
+    strong{
+        font-size: 30px;
+    }
+
+    h2{
+    font-size: 33px;
+    line-height: 30px;
+    text-align: left;
+    margin: 10px;
+}
+    }
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;  
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    background-color: #000000;
+    padding: 50px;
+}
+
+nav ul li a{
+    font-size: 28px;
+    line-height: 30px;
+    text-align: left;
+    margin: 10px;
+}
+
+
+#sobreNos,
+#projects,
+#index {
+    height: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#imagemSobreNos{
+    justify-content: space-around;
+    list-style: none;
+    display: flex; 
+    align-items: center;
+    margin-left: 18%;
+    margin-right: 20%;
+}
+.imgNos{
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+}
+
+.imgNos{
+    border-radius: 10%;
+    width: 300px;
+    height: 300px;
+}
+
+#nomes{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#projects{
+     ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+     ul li {
+        display: flex; 
+        align-items: center;
+        margin-left: 18%;
+        margin-right: 20%;
+    }
+    
+     ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 28px;
+        line-height: 25px;
+        text-align: left;
+        margin: 10px;
+}
+
+h2{
+    font-size: 33px;
+    line-height: 30px;
+    text-align: left;
+    margin: 10px;
+}
+    }
+
+.imgHackersDoBem{
+    max-width: 100%;
+    width: 160px;
+    height: 160px;
+    padding-right: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgAtividadesIlegais{
+    max-width: 100%;
+    width: 130px;
+    height: 130px;
+    padding-right: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgSoftwareSustentavel{
+    max-width: 100%;
+    width: 130px;
+    height: 120px;
+    padding-right: 50px;
+    text-align: center;
+    justify-content: end;
+}
+
+.imgEnergiaRenovavel{
+    max-width: 100%;
+    width: 130px;
+    height: 130px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.imgDesastresNaturais{
+    max-width: 100%;
+    width: 130px;
+    height: 120px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.imgVidaSelvagem{
+    max-width: 100%;
+    width: 130px;
+    height: 120px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.p3 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+    border-color: inherit;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#hack{
+    position: absolute;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2px;
+	flex-wrap: wrap;
+	overflow: hidden;
+}
+#hack::before 
+{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#000,#0f0,#000);
+	animation: animate 5s linear infinite;
+}
+@keyframes animate 
+{
+	0%
+	{
+		transform: translateY(-100%);
+	}
+	100%
+	{
+		transform: translateY(100%);
+	}
+}
+#hack span 
+{
+	position: relative;
+	display: block;
+	width: calc(6.25vw - 2px);
+	height: calc(6.25vw - 2px);
+	background: #181818;
+	z-index: 2;
+	transition: 1.5s;
+}
+#hack span:hover 
+{
+	background: #0f0;
+	transition: 0s;
+}
+
+#hack .signin
+{
+	position: absolute;
+	width: 400px;
+  background: #222;  
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(0,0,0,9);
+}
+#hack .signin .content 
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+}
+#hack .signin .content h2 
+{
+	font-size: 2em;
+	color: #0f0;
+	text-transform: uppercase;
+}
+#hack .signin .content .form 
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+#hack .signin .content .form .inputBox
+{
+	position: relative;
+	width: 100%;
+}
+#hack .signin .content .form .inputBox input 
+{
+	position: relative;
+	width: 100%;
+	background: #333;
+	border: none;
+	outline: none;
+	padding: 25px 10px 7.5px;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1em;
+}
+#hack .signin .content .form .inputBox i 
+{
+	position: absolute;
+	left: 0;
+	padding: 15px 10px;
+	font-style: normal;
+	color: #aaa;
+	transition: 0.5s;
+	pointer-events: none;
+}
+.signin .content .form .inputBox input:focus ~ i,
+.signin .content .form .inputBox input:valid ~ i
+{
+	transform: translateY(-7.5px);
+	font-size: 0.8em;
+	color: #fff;
+}
+.signin .content .form .links 
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.signin .content .form .links a 
+{
+	color: #fff;
+	text-decoration: none;
+}
+.signin .content .form .links a:nth-child(2)
+{
+	color: #0f0;
+	font-weight: 600;
+}
+.signin .content .form .inputBox input[type="submit"]
+{
+	padding: 10px;
+	background: #0f0;
+	color: #000;
+	font-weight: 600;
+	font-size: 1.35em;
+	letter-spacing: 0.05em;
+	cursor: pointer;
+}
+input[type="submit"]:active
+{
+	opacity: 0.6;
+}
+@media (max-width: 900px)
+{
+	#hack span 
+	{
+		width: calc(10vw - 2px);
+		height: calc(10vw - 2px);
+	}
+}
+@media (max-width: 600px)
+{
+	#hack span 
+	{
+		width: calc(20vw - 2px);
+		height: calc(20vw - 2px);
+	}
+}
+
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+        position: static;
+        bottom: 0;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 25px;
+    }
